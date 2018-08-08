@@ -5,12 +5,12 @@ $(document).ready(function() {
     var titleInput= $("input#title").val();
     var textInput = $("input#text").val();
 
-    $(".title").append(nameInput);
-    $(".name").append(addressInput);
-    $(".address").append(titleInput);
-    $(".text").append(textInput);
+    $(".name").text(nameInput);
+    $(".address").text(addressInput);
+    $(".title").text(titleInput);
+    $(".text").text(textInput);
 
-    // $("#letter").show();
+    // $("#letter").show();ß
 
     event.preventDefault();
   });
